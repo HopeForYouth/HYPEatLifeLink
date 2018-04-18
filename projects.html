@@ -20,7 +20,22 @@
 
     <!-- Custom styles for this template -->
     <link href="css/business-casual.css" rel="stylesheet">
+    	<style>
+	    /* Create three equal columns that floats next to each other */
+	.column {
+	    float: left;
+	    width: 33.33%;
+	    padding: 10px;
+	    height: 300px; /* Should be removed. Only for demonstration */
+	    }
 
+	/* Clear floats after the columns */
+	.row:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	    }
+	  </style>
   </head>
 
   <body>
@@ -81,11 +96,24 @@
     <section class="page-section">
       <div class="container">
             <div class="bg-faded p-5 rounded">
-              <ul class="mb-0">
-		      <li> <a href="https://mywebportfolio--abigaill1.repl.co" target="_blank"> Abigail Lopez </li>      
-		      
-		</ul>
-            </div>
+              <div class="row">
+		      <div class="column">
+			      <ul class="mb-0">
+				      <li> <a href="https://mywebportfolio--abigaill1.repl.co" target="_blank"> Abigail Lopez </li> 
+			      </ul>
+		      </div>
+		      <div class="column">
+			      <ul class="mb-0">
+				      <li> <a href="https://mywebportfolio--abigaill1.repl.co" target="_blank"> Abigail Lopez </li> 
+			      </ul>
+		      </div>
+		      <div class="column">
+			      <ul class="mb-0">
+				      <li> <a href="https://mywebportfolio--abigaill1.repl.co" target="_blank"> Abigail Lopez </li> 
+			      </ul>
+		      </div>
+		    </div>
+	      </div>
       </div>
     </section>
 
